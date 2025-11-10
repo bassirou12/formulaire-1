@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Évaluation Word & Excel - CEM Ballabey</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f7fa;
+      margin: 0;
+      padding: 0;
+    }
+    marquee {
+      background-color: #004080;
+      color: white;
+      padding: 10px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    form {
+      max-width: 700px;
+      margin: 30px auto;
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+    h2, h3 {
+      text-align: center;
+      color: #004080;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .question {
+      margin-top: 20px;
+      padding: 10px;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      background: #f9f9f9;
+    }
+    button {
+      display: block;
+      width: 100%;
+      background-color: #004080;
+      color: white;
+      font-size: 18px;
+      padding: 10px;
+      margin-top: 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0066cc;
+    }
+  </style>
+</head>
+<body>
+  <marquee>📘 CEM Ballabey - Test de niveau Word & Excel 📗</marquee>
+  <form action="mailto:nbassirou877@gmail.com" method="post" enctype="text/plain">
+    <h2>Formulaire d'évaluation</h2>
+
+    <label>Nom complet :</label>
+    <input type="text" name="Nom" required>
+
+    <label>Poste occupé :</label>
+    <input type="text" name="Poste" required>
+
+    <label>Groupe :</label>
+    <input type="text" name="Groupe" required>
+
+    <label>Adresse Email :</label>
+    <input type="email" name="Email" required>
+
+    <h3>💻 Questions pratiques sur l’ordinateur</h3>
+
+    <div class="question">
+      <p>1. As-tu déjà utilisé un ordinateur ?</p>
+      <input type="radio" name="Q1" value="Oui"> Oui<br>
+      <input type="radio" name="Q1" value="Non"> Non
+    </div>
+
+    <div class="question">
+      <p>2. Peux-tu créer un dossier sur un ordinateur ?</p>
+      <input type="radio" name="Q2" value="Oui"> Oui<br>
+      <input type="radio" name="Q2" value="Non"> Non
+    </div>
+
+    <div class="question">
+      <p>3. Peux-tu manipuler les fichiers et dossiers (déplacer, copier, supprimer) ?</p>
+      <input type="radio" name="Q3" value="Oui"> Oui<br>
+      <input type="radio" name="Q3" value="Non"> Non
+    </div>
+
+    <div class="question">
+      <p>4. As-tu besoin d’une formation sur Word ?</p>
+      <input type="radio" name="Q4" value="Oui"> Oui<br>
+      <input type="radio" name="Q4" value="Non"> Non
+    </div>
+
+    <div class="question">
+      <p>5. Quelles sont tes principales difficultés sur ordinateur ?</p>
+      <textarea name="Q5" rows="2" placeholder="Décris tes difficultés"></textarea>
+    </div>
+
+    <div class="question">
+      <p>6. Que peux-tu faire sur un ordinateur ?</p>
+      <textarea name="Q6" rows="2" placeholder="Décris tes actions possibles sur un PC"></textarea>
+    </div>
+
+    <div class="question">
+      <p>7. Peux-tu effectuer une saisie de texte simple (ex : Word, bloc-notes) ?</p>
+      <input type="radio" name="Q7" value="Oui"> Oui<br>
+      <input type="radio" name="Q7" value="Non"> Non
+    </div>
+
+    <div class="question">
+      <p>8. Connais-tu la différence entre un fichier, un dossier et un sous-dossier ?</p>
+      <input type="radio" name="Q8" value="Oui"> Oui<br>
+      <input type="radio" name="Q8" value="Non"> Non
+    </div>
+
+    <div class="question">
+      <p>9. Peux-tu enregistrer un document correctement ?</p>
+      <input type="radio" name="Q9" value="Oui"> Oui<br>
+      <input type="radio" name="Q9" value="Non"> Non
+    </div>
+
+    <h3>📝 Questions Word & Excel</h3>
+
+    <div class="question">
+      <p>10. Quelle combinaison permet d’enregistrer un document Word ?</p>
+      <input type="radio" name="Q10" value="Ctrl + S"> Ctrl + S<br>
+      <input type="radio" name="Q10" value="Ctrl + P"> Ctrl + P<br>
+      <input type="radio" name="Q10" value="Ctrl + C"> Ctrl + C
+    </div>
+
+    <div class="question">
+      <p>11. Comment appelle-t-on l’espace en haut d’un document Word contenant le titre ou le logo ?</p>
+      <input type="radio" name="Q11" value="En-tête"> En-tête<br>
+      <input type="radio" name="Q11" value="Pied de page"> Pied de page<br>
+      <input type="radio" name="Q11" value="Marge"> Marge
+    </div>
+
+    <div class="question">
+      <p>12. Quelle est l’extension par défaut d’un fichier Word 2019 ?</p>
+      <input type="radio" name="Q12" value=".doc"> .doc<br>
+      <input type="radio" name="Q12" value=".docx"> .docx<br>
+      <input type="radio" name="Q12" value=".txt"> .txt
+    </div>
+
+    <div class="question">
+      <p>13. Quelle option permet de modifier la taille du texte ?</p>
+      <input type="radio" name="Q13" value="Police"> Police<br>
+      <input type="radio" name="Q13" value="Taille"> Taille<br>
+      <input type="radio" name="Q13" value="Marge"> Marge
+    </div>
+
+    <div class="question">
+      <p>14. Comment insérer une image dans Word ?</p>
+      <input type="radio" name="Q14" value="Insertion > Image"> Insertion > Image<br>
+      <input type="radio" name="Q14" value="Affichage > Image"> Affichage > Image<br>
+      <input type="radio" name="Q14" value="Mise en page > Image"> Mise en page > Image
+    </div>
+
+    <div class="question">
+      <p>15. Touche pour passer à la ligne suivante sans nouveau paragraphe ?</p>
+      <input type="radio" name="Q15" value="Shift + Entrée"> Shift + Entrée<br>
+      <input type="radio" name="Q15" value="Entrée"> Entrée<br>
+      <input type="radio" name="Q15" value="Ctrl + Entrée"> Ctrl + Entrée
+    </div>
+
+    <div class="question">
+      <p>16. Dans Word, à quoi sert la règle ?</p>
+      <input type="radio" name="Q16" value="Ajuster les marges"> Ajuster les marges<br>
+      <input type="radio" name="Q16" value="Changer la police"> Changer la police<br>
+      <input type="radio" name="Q16" value="Enregistrer"> Enregistrer
+    </div>
+
+    <div class="question">
+      <p>17. Formule Excel pour additionner A1 et A2 ?</p>
+      <input type="radio" name="Q17" value="=A1+A2"> =A1+A2<br>
+      <input type="radio" name="Q17" value="A1+A2"> A1+A2<br>
+      <input type="radio" name="Q17" value="=SOMME(A1:A2)"> =SOMME(A1:A2)
+    </div>
+
+    <div class="question">
+      <p>18. Fonction pour calculer la moyenne d’une plage de cellules ?</p>
+      <input type="radio" name="Q18" value="=SOMME()"> =SOMME()<br>
+      <input type="radio" name="Q18" value="=MOYENNE()"> =MOYENNE()<br>
+      <input type="radio" name="Q18" value="=MAX()"> =MAX()
+    </div>
+
+    <div class="question">
+      <p>19. Comment figer la première ligne dans Excel ?</p>
+      <input type="radio" name="Q19" value="Affichage > Figer les volets"> Affichage > Figer les volets<br>
+      <input type="radio" name="Q19" value="Insertion > Ligne"> Insertion > Ligne<br>
+      <input type="radio" name="Q19" value="Mise en page > Figer"> Mise en page > Figer
+    </div>
+
+    <div class="question">
+      <p>20. Extension d’un fichier Excel 2019 ?</p>
+      <input type="radio" name="Q20" value=".xls"> .xls<br>
+      <input type="radio" name="Q20" value=".xlsx"> .xlsx<br>
+      <input type="radio" name="Q20" value=".csv"> .csv
+    </div>
+
+    <div class="question">
+      <p>21. Formule pour trouver le plus grand nombre d’une plage ?</p>
+      <input type="radio" name="Q21" value="=MAX()"> =MAX()<br>
+      <input type="radio" name="Q21" value="=MIN()"> =MIN()<br>
+      <input type="radio" name="Q21" value="=SOMME()"> =SOMME()
+    </div>
+
+    <div class="question">
+      <p>22. Comment copier une formule d’une cellule à une autre ?</p>
+      <input type="radio" name="Q22" value="Glisser la poignée de recopie"> Glisser la poignée de recopie<br>
+      <input type="radio" name="Q22" value="Taper à nouveau"> Taper à nouveau<br>
+      <input type="radio" name="Q22" value="Copier-coller la feuille"> Copier-coller la feuille
+    </div>
+
+    <div class="question">
+      <p>23. Que fait la fonction =NB(A1:A10) ?</p>
+      <input type="radio" name="Q23" value="Compte les cellules contenant des nombres"> Compte les cellules contenant des nombres<br>
+      <input type="radio" name="Q23" value="Additionne les cellules"> Additionne les cellules<br>
+      <input type="radio" name="Q23" value="Calcule la moyenne"> Calcule la moyenne
+    </div>
+
+    <div class="question">
+      <p>24. Quelle est la cellule en haut à gauche d’une feuille Excel ?</p>
+      <input type="radio" name="Q24" value="A1"> A1<br>
+      <input type="radio" name="Q24" value="B2"> B2<br>
+      <input type="radio" name="Q24" value="C3"> C3
+    </div>
+
+    <button type="submit">📨 Envoyer le formulaire</button>
+  </form>
+</body>
+</html>
